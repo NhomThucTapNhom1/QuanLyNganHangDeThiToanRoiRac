@@ -76,6 +76,8 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dgv2 = new System.Windows.Forms.DataGridView();
             this.btThoat = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbQuyen = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tb1.SuspendLayout();
             this.tb2.SuspendLayout();
@@ -410,6 +412,8 @@
             // tb3
             // 
             this.tb3.BackColor = System.Drawing.Color.Silver;
+            this.tb3.Controls.Add(this.cbQuyen);
+            this.tb3.Controls.Add(this.label3);
             this.tb3.Controls.Add(this.cbNV);
             this.tb3.Controls.Add(this.button1);
             this.tb3.Controls.Add(this.butTao);
@@ -487,7 +491,7 @@
             // textMK2
             // 
             this.textMK2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textMK2.Location = new System.Drawing.Point(585, 158);
+            this.textMK2.Location = new System.Drawing.Point(585, 185);
             this.textMK2.Name = "textMK2";
             this.textMK2.PasswordChar = '*';
             this.textMK2.Size = new System.Drawing.Size(136, 24);
@@ -497,7 +501,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(479, 164);
+            this.label13.Location = new System.Drawing.Point(479, 191);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(98, 18);
             this.label13.TabIndex = 32;
@@ -506,7 +510,7 @@
             // textMK3
             // 
             this.textMK3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textMK3.Location = new System.Drawing.Point(585, 191);
+            this.textMK3.Location = new System.Drawing.Point(585, 218);
             this.textMK3.Name = "textMK3";
             this.textMK3.PasswordChar = '*';
             this.textMK3.Size = new System.Drawing.Size(136, 24);
@@ -515,7 +519,7 @@
             // textMK1
             // 
             this.textMK1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textMK1.Location = new System.Drawing.Point(585, 123);
+            this.textMK1.Location = new System.Drawing.Point(585, 150);
             this.textMK1.Name = "textMK1";
             this.textMK1.PasswordChar = '*';
             this.textMK1.ReadOnly = true;
@@ -537,7 +541,7 @@
             this.but2.Name = "but2";
             this.but2.Size = new System.Drawing.Size(98, 23);
             this.but2.TabIndex = 28;
-            this.but2.Text = "Đổi mật khẩu";
+            this.but2.Text = "sửa tài khoản";
             this.but2.UseVisualStyleBackColor = true;
             this.but2.Click += new System.EventHandler(this.but2_Click);
             // 
@@ -545,7 +549,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(479, 197);
+            this.label14.Location = new System.Drawing.Point(479, 224);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(61, 18);
             this.label14.TabIndex = 27;
@@ -555,7 +559,7 @@
             // 
             this.lbMKNV.AutoSize = true;
             this.lbMKNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMKNV.Location = new System.Drawing.Point(479, 129);
+            this.lbMKNV.Location = new System.Drawing.Point(479, 156);
             this.lbMKNV.Name = "lbMKNV";
             this.lbMKNV.Size = new System.Drawing.Size(89, 18);
             this.lbMKNV.TabIndex = 26;
@@ -597,6 +601,25 @@
             this.btThoat.Text = "Thoát";
             this.btThoat.UseVisualStyleBackColor = true;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(479, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 18);
+            this.label3.TabIndex = 40;
+            this.label3.Text = "Quyền";
+            // 
+            // cbQuyen
+            // 
+            this.cbQuyen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbQuyen.FormattingEnabled = true;
+            this.cbQuyen.Location = new System.Drawing.Point(585, 120);
+            this.cbQuyen.Name = "cbQuyen";
+            this.cbQuyen.Size = new System.Drawing.Size(136, 24);
+            this.cbQuyen.TabIndex = 41;
             // 
             // TaiKhoan
             // 
@@ -675,5 +698,7 @@
         private System.Windows.Forms.ComboBox cbTS;
         private System.Windows.Forms.Button btThoat;
         private System.Windows.Forms.TextBox textMK1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cbQuyen;
     }
 }

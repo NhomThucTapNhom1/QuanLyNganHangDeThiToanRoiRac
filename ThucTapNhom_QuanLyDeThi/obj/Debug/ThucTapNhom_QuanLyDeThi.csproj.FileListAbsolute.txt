@@ -65,3 +65,20 @@ C:\Users\Truong_Loi\Documents\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_Q
 C:\Users\Truong_Loi\Documents\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.exe
 C:\Users\Truong_Loi\Documents\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.pdb
 >>>>>>> 4ffda79ccc773a33bacc8c956b2f38b7cb4592da
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\bin\Debug\ThucTapNhom_QuanLyDeThi.exe
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\bin\Debug\ThucTapNhom_QuanLyDeThi.pdb
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\bin\Debug\Dapper.dll
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\bin\Debug\Dapper.Extension.dll
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\bin\Debug\Dapper.xml
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.csprojResolveAssemblyReference.cache
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.CauHoi.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.DangNhap.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.DapAn.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.DeBai.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.QuanLyDeThi.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.TaiKhoan.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.Main.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.MauDeThi.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.NhanVien.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.Properties.Resources.resources
+D:\GitHub\QuanLyNganHangDeThiToanRoiRac\ThucTapNhom_QuanLyDeThi\obj\Debug\ThucTapNhom_QuanLyDeThi.csproj.GenerateResource.Cache

@@ -154,7 +154,7 @@ namespace ThucTapNhom_QuanLyDeThi
             {
                 try
                 {
-                    if (con.SetData("update DeBai set GhiChu = '0' where MaDe='" + dataGridView1.Rows[r].Cells[0].Value.ToString() + "'") == true)
+                    if (con.SetData("sp_XoaDeThi '" + dataGridView1.Rows[r].Cells[0].Value.ToString() + "'") == true)
                     {
                         MessageBox.Show("xóa đề thi thành công.");
                     }
@@ -163,12 +163,13 @@ namespace ThucTapNhom_QuanLyDeThi
                 {
                     MessageBox.Show("xóa đề thi bị lỗi");
                 }
+                hienthi();
             }  
         }
         void hienthi()
         {
             DataTable dt = new DataTable();
-            dt = con.GetData("select MaDe,TenDe from DeBai where GhiChu=1");
+            dt = con.GetData("select MaDe,TenDe from DeBai");
             dataGridView1.DataSource = dt;
             dataGridView1.Refresh();
         }

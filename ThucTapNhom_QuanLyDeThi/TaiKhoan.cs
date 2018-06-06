@@ -40,10 +40,16 @@ namespace ThucTapNhom_QuanLyDeThi
             if (this.quyen == "Quyen3")
             {
                 DataTable dt = new DataTable();
+                DataTable db = new DataTable();
                 dt = con.GetData(sql);
                 dgv2.DataSource = dt;
                 dgv2.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                 dgv2.Refresh();
+                db = con.GetData("select TenQuyen from Quyen where TenQuyen not like N'thí sinh'");
+                cbQuyen.DataSource = db;
+                cbQuyen.ValueMember = "TenQuyen";
+                
+
             }
         }
         private void frmQLTaiKhoan_Load(object sender, EventArgs e)
@@ -71,7 +77,7 @@ namespace ThucTapNhom_QuanLyDeThi
             {
                 if (ttMK2.Text == ttMK3.Text)
                 {
-                    if (con.SetData("sp_SuaTK N'" + ttMK2.Text + "',N'" + ttUser.Text + "'") == true)
+                    if (con.SetData("sp_SuaTKTS N'" + ttMK2.Text + "',N'" + ttUser.Text + "'") == true)
                         MessageBox.Show("Sửa thành công.", "thông báo");
                     else
                         MessageBox.Show("Sửa không thành công.", "thông báo");
@@ -89,7 +95,7 @@ namespace ThucTapNhom_QuanLyDeThi
             {
                 if (txtMK2.Text == txtMK3.Text)
                 {
-                    if (con.SetData("sp_SuaTK N'" + txtMK2.Text + "',N'" + txtUser.Text + "'") == true)
+                    if (con.SetData("sp_SuaTKTS N'" + txtMK2.Text + "',N'" + txtUser.Text + "'") == true)
                         MessageBox.Show("Sửa thành công.", "thông báo");
                     else
                         MessageBox.Show("Sửa không thành công.", "thông báo");
@@ -108,7 +114,7 @@ namespace ThucTapNhom_QuanLyDeThi
             {
                 if (textMK2.Text == textMK3.Text)
                 {
-                    if (con.SetData("sp_SuaTK N'" + textMK2.Text + "',N'" + textTK.Text + "'") == true)
+                    if (con.SetData("sp_SuaTK N'" + textMK2.Text + "',N'" + textTK.Text + "',N'"+cbQuyen.Text+"'") == true)
                         MessageBox.Show("Sửa thành công.", "thông báo");
                     else
                         MessageBox.Show("Sửa không thành công.", "thông báo");
@@ -156,7 +162,7 @@ namespace ThucTapNhom_QuanLyDeThi
         //135
         private void button1_Click(object sender, EventArgs e)
         {
-                string sql1 = "sp_taoTKNV '" + cbNV.Text + "','" + textTK.Text + "','" + textMK2.Text + "'";
+                string sql1 = "sp_taoTKNV '" + cbNV.Text + "','" + textTK.Text + "','" + textMK2.Text + "',N'"+cbQuyen.Text+"'";
                 string sql2 = "select count(*) from TaiKhoan where TenTK= '" + textTK.Text + "'";
                 con.Cmd = new SqlCommand(sql2, con.Conn1);
             try
